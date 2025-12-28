@@ -103,7 +103,14 @@ The source code modules in `src/` can be imported and used in notebooks or other
 
 ## Model Performance
 
-(To be updated after model training)
+**Best Model: XGBoost**
+- **Accuracy**: 86.95%
+- **ROC-AUC**: 0.8676
+- **Precision**: 80.17%
+- **Recall**: 47.67%
+- **F1-Score**: 59.78%
+
+📊 **For detailed results, findings, and insights, see [RESULTS.md](RESULTS.md)**
 
 ## Author
 
