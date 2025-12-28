@@ -27,6 +27,9 @@ This project successfully developed a machine learning system to predict bank cu
   - Churned: ~20%
   - **Imbalanced dataset** - addressed using SMOTE
 
+![Churn Distribution](docs/images/churn_distribution.png)
+*Figure 1: Customer churn distribution showing ~20% churn rate*
+
 ### Key Features Analyzed
 
 **Demographics:**
@@ -52,23 +55,38 @@ This project successfully developed a machine learning system to predict bank cu
   - France: Moderate churn rate
   - Spain: Lowest churn rate
 
+![Geography Churn Analysis](docs/images/geography_churn.png)
+*Figure 2: Churn rates and customer distribution by geography*
+
 ### 2. Age Impact
 - **Older customers (50+)**: Higher churn probability
 - **Younger customers (18-30)**: Lower churn risk
 - Age groups created: <30, 30-40, 40-50, 50-60, 60+
 
+![Age Churn Analysis](docs/images/age_churn_analysis.png)
+*Figure 3: Age distribution and churn rates by age group*
+
 ### 3. Balance Patterns
 - **Zero balance accounts**: Strong indicator of potential churn
 - **Balance groups**: Created categories (Zero, Low, Medium, High, Very High)
+
+![Balance Churn Analysis](docs/images/balance_churn_analysis.png)
+*Figure 4: Balance distribution and churn rates by balance status*
 
 ### 4. Engagement Metrics
 - **Inactive members**: Significantly higher churn rate
 - **Single product users**: More likely to churn than multi-product users
 - **Low tenure (< 2 years)**: Higher churn risk
 
+![Engagement Metrics](docs/images/engagement_metrics.png)
+*Figure 5: Churn analysis by engagement metrics (Active Status, Products, Tenure, Credit Score)*
+
 ### 5. Credit Score Correlation
 - Lower credit scores show some correlation with churn
 - Credit score ranges analyzed for risk segmentation
+
+![Correlation Heatmap](docs/images/correlation_heatmap.png)
+*Figure 6: Feature correlation matrix showing relationships between variables*
 
 ---
 
@@ -81,6 +99,9 @@ This project successfully developed a machine learning system to predict bank cu
 | **XGBoost** | **85.8%** | **71.8%** | **49.4%** | **58.5%** | **0.8579** | **0.6798** |
 | Random Forest | 85.8% | 71.8% | 49.4% | 58.5% | 0.8579 | 0.6798 |
 | Logistic Regression | 75.0% | 43.1% | 71.5% | 53.7% | 0.8089 | 0.5828 |
+
+![Model Performance Comparison](docs/images/model_comparison.png)
+*Figure 7: Side-by-side comparison of all models across key metrics*
 
 ### Best Model: XGBoost
 
